@@ -1,0 +1,45 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 250px;
+  padding: 5px;
+  margin: 10px;
+  border: 2px solid black;
+  flex-wrap: nowrap;
+}
+
+.product-img {
+  display: flex;
+  width: 180px;
+  height: 200px;
+  padding: 2px;
+  border: 1px solid lightgray;
+  margin: 5px;
+}
+
+.product-title {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 3px;
+}
+
+.page {
+  cursor: pointer;
+  margin: 2px;
+}
+
+.active {
+  background-color: bisque;
+}
